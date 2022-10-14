@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.header__lista{
+    display: flex;
+}
+.header__item {
+    list-style: none;
+}
+.header__item-enlace{
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.header__item:nth-child(1){
+    font-weight: bold;
+    color: #333;
+}
+.header__item-enlace:hover{
+   text-decoration: underline;
+}
