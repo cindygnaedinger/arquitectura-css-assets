@@ -11,6 +11,7 @@ width: 100%;
 transform: translate(-50%, -50%);
 }
 .banner__imagen{
-    width: 100%;
+    background: url(../img/banner.jpg) no-repeat center / cover;
     height: calc(100vh - 72px);
+    width: 100%;
 }

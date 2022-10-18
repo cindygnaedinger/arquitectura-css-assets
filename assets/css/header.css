@@ -1,7 +1,7 @@
 .header{
-    display: flex;
     align-items: center;
     background: #f9f9f9;
+    display: flex;
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -20,8 +20,8 @@
     text-transform: lowercase;
 }
 .header__item:nth-child(1){
-    font-weight: bold;
     color: #333;
+    font-weight: bold;
 }
 .header__item-enlace:hover{
    text-decoration: underline;
